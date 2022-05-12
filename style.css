@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none; 
+    
 }
 h4{
     color: #F9FAF8;
@@ -26,6 +27,8 @@ a{
     align-items: center;
     margin-left: auto;
     gap: 8px;
+    
+
 }
 
 .body1{
@@ -37,6 +40,7 @@ a{
 
 .img1{
     padding-right: 200px;
+    padding-bottom: 50px;
 }
 
 .header2{
@@ -52,21 +56,23 @@ h1{
 
 }
 
-p{
+.content p{
     font-size: 18px;
     color: #E5E7EB;
+  
 }
 
 .content{
    display: flex;
    flex-direction: column;
-   justify-content: center;
+  
+   justify-content: flex-start;
    align-items: center;
    padding-bottom: 40px;
    padding-left: 150px;
    margin: 30px;
    margin-top: auto;
-
+   margin-left: auto;
    
 }
 
@@ -77,7 +83,76 @@ p{
    margin-top: 8px;
     padding: 8px 16px;
     border-radius: 8px;
-    border: 1px solid #3882F6;;
+    border: 1px solid #3882F6;
     
+}
+
+h2{
+  font-size: 36px;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.body2{
+    padding-bottom: 50px;
+}
+
+.info{
+    max-width: 300px;
+}
+.body3{
+    background-color: #E5E7EB;
+    padding: 70px 120px;
+}
+
+.textmain p{
+   color: #1F2937;
+   font-size: 36px;
+   font-style: italic;
+   display: flex;
+   justify-content: center;
+  
+
+}
+
+.quote p{
+ color: black;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.body4{
+    margin: 60px;
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px;
+}
+
+.buttonend{
+    background-color: #3882F6;
+    margin-top: 8px;
+     padding: 8px 16px;
+     border-radius: 8px;
+     border: 1px solid #3882F6;
+     border-color: white;
+     color: white;
+}
+
+h5{
+    color: white;
+}
+
+.body4 p{
+    color: white;
 }
 
