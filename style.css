@@ -53,7 +53,7 @@ h1{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-
+    margin-right: auto;
 }
 
 .content p{
@@ -65,7 +65,6 @@ h1{
 .content{
    display: flex;
    flex-direction: column;
-  
    justify-content: flex-start;
    align-items: center;
    padding-bottom: 40px;
@@ -75,6 +74,8 @@ h1{
    margin-left: auto;
    
 }
+
+
 
 .button1{
     margin-right: auto;
@@ -132,13 +133,21 @@ h2{
 }
 
 .body4{
-    margin: 60px;
-    display: flex;
+   display: flex;
+   justify-content: center;
+    
     background-color: #3882F6;
-    padding: 30px;
+    padding: 40px;
+    margin: 70px;
+    margin-left: 100px;
+    margin-right: 100;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    
 }
 
 .buttonend{
+    
     background-color: #3882F6;
     margin-top: 8px;
      padding: 8px 16px;
@@ -146,13 +155,34 @@ h2{
      border: 1px solid #3882F6;
      border-color: white;
      color: white;
+    
 }
 
 h5{
+    font-size: large;
     color: white;
+    font-weight: bolder;
+    
+    
 }
+
+.textfinal{
+    margin-right: 80px;
+}
+
 
 .body4 p{
-    color: white;
+    font-weight: lighter;
+    color: #E5E7EB
 }
 
+.footer{
+background-color: #1F2937;
+padding: 28px;
+}
+
+.footer p{
+ color: white ;
+ display: flex;
+ justify-content: center;
+}
